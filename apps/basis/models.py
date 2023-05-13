@@ -8,4 +8,4 @@ class Abstract(models.Model):
 
     class Meta:
         abstract = True
-        ordering = ('-addtime',)
+        ordering = ['-addtime']
