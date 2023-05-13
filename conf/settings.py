@@ -2,10 +2,8 @@ import os, sys
 import pymysql
 
 from pathlib import Path
-from django.utils.translation import gettext_lazy as _
 
-
-WEBNAME = _('Django Site')
+WEBNAME = 'Django Site'
 pymysql.install_as_MySQLdb()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
